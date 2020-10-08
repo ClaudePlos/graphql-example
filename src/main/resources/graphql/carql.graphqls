@@ -1,0 +1,11 @@
+type Car {
+ id: ID!,
+ name: String,
+ model: String,
+ url: String
+}
+
+type Query
+{
+  cars:[Car]
+}
